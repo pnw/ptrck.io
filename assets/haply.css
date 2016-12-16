@@ -5,6 +5,7 @@ html, h1 {
     font-size: 100%;
     vertical-align: baseline;
     font: inherit;
+    color: #fff;
     line-height: 1.33em
 }
 
@@ -21,7 +22,8 @@ body {
     font-size: 100%;
     font-weight: 300;
     vertical-align: baseline;
-    font-family: "Open Sans", "Helvetica", "Arial", sans-serif
+    font-family: 'Raleway',sans-serif;
+    /*font-family: "Open Sans", "Helvetica", "Arial", sans-serif*/
 }
 
 main {
@@ -29,12 +31,11 @@ main {
     max-width: 960px;
     padding: 0;
     margin: 0 auto;
-    text-align: center;
     padding-top: 60px;
-    font-weight: bold;
 }
 
 h1 {
+    font-weight: bold;
     margin: 10px auto -5px;
     font-size: 56px;
     font-weight: 500
