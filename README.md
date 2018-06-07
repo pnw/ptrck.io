@@ -1,12 +1,10 @@
-# pnw.github.io
-Github Pages
+# gatsby-starter-hello-world
+Starter with the bare essentials needed for a [Gatsby](https://www.gatsbyjs.org/) site
+
+Install this starter (assuming Gatsby is installed) by running from your CLI:
 ```
-       _            _      _       
-      | |          | |    (_)      
- _ __ | |_ _ __ ___| | __  _  ___  
-| '_ \| __| '__/ __| |/ / | |/ _ \ 
-| |_) | |_| | | (__|   < _| | (_) |
-| .__/ \__|_|  \___|_|\_(_)_|\___/ 
-| |                                
-|_|                                                     
+gatsby new gatsby-site https://github.com/gatsbyjs/gatsby-starter-hello-world
 ```
+
+## Running in development
+`gatsby develop`
