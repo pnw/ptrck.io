@@ -20,8 +20,8 @@ export default () =>
 
             <p>
                 You can find me on <a href="https://github.com/pnw">Github</a> or email
-                me at <a href="mailto:patrick+1@ptrck.io">patrick@ptrck.io</a>.
-                Drop me a line if you want to work together!
+                me at <a href="mailto:patrick+1@ptrck.io">patrick@ptrck.io</a> if
+                you want to work together, tell me how handsome and clever I am, or just say hi.
             </p>
         </section>
 
@@ -107,13 +107,13 @@ export default () =>
 
             <Entry>
                 <h3>Jiggl</h3>
-                <p>Jira + Toggl = Jiggl. Heh.</p>
                 <p>
                     Why spend minutes on timesheet logging and invoicing when you can spend hours hacking together a
                     custom data-connector/automation-tool to do it for you?
-                    Yes, there are other connectors between Jira and Toggle, but they didn't quite fit.
+                    Yes, there are other connectors between Jira and Toggle,
+                    but I had some other ideas about user experience and workflow.
                 </p>
-
+                <p>Jira + Toggl = Jiggl. Heh.</p>
                 <TechList techs={['Ember', 'Python', 'Flask']}/>
             </Entry>
 
@@ -165,7 +165,7 @@ export default () =>
                     Inspired by the likes of <a href="https://haveibeenpwned.com/">have i been pwned</a> and
                     the <a href="https://gmail.googleblog.com/2008/03/2-hidden-ways-to-get-more-from-your.html">
                     "+" sign email hack
-                </a>, this is an experiment to answer the question,
+                </a>, this is an ongoing experiment to answer the question,
                 </p>
                 <blockquote>
                     "What happens when I put my information online?"
