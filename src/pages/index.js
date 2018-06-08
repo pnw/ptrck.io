@@ -5,44 +5,53 @@ import TechList from '../components/tech-list'
 
 export default () =>
     <div>
-        <SubSection>
-            <h1>ptrck.io</h1>
+        <h1>ptrck.io</h1>
+        <section className="header-section">
             <p>
-                Nihil optio rerum dolorem sit ducimus fuga optio. Autem quasi quis quidem voluptatem voluptatem maxime
-                distinctio ratione. Impedit molestiae hic omnis magnam et sequi. Voluptatem qui eos harum.
-                Mostly I like to build tools that make peoples lives more efficient.
+                Hi, I'm Patrick.
+            </p>
+            <p>
+                I'm a full stack web developer. For years, I traveled around the eastern hemisphere, working remotely,
+                but these days you can find me in Boulder, Colorado.
+            </p>
+            <p>
+                I like to build tools that make peoples lives more efficient.
             </p>
 
-        </SubSection>
+            <p>
+                You can find me on <a href="https://github.com/pnw">Github</a> or email
+                me at <a href="mailto:patrick+1@ptrck.io">patrick@ptrck.io</a>.
+                Drop me a line if you want to work together!
+            </p>
+        </section>
 
         <SubSection>
             <h2>Work</h2>
             <Entry>
-                <h3>My Worksites</h3>
+                <h3>MyWorksites</h3>
                 <p>
-                    A tool used by municipal organizations and contractors across New Zealand.
-                    It's used
+                    A collaboration tool that allows municipal organizations and contractors across New Zealand
+                    to manage the lifecycle (at least the bits that require approval from the gub'ment)
+                    of roadwork projects.
                 </p>
                 <TechList techs={['Ember', 'Node', 'Express', 'Loopback', 'Python', 'Postgres', 'Docker']}/>
             </Entry>
 
             <Entry>
-                <h3>Listed Land Use Register (LLUR)</h3>
+                <h3>Listed Land Use Register</h3>
                 <p>
-                    An internal application used by the Marlborough District County Environmental Department. It
-                    is used to manage tracts of land that may have been contaminated by hazardous materials.
+                    An internal application used by a District County in New Zealand.
+                    It manages tracts of land that may have been contaminated by hazardous materials.
                 </p>
                 <TechList techs={['Ember', 'Node', 'Express', 'Loopback', 'MS SQL Server']}/>
             </Entry>
 
             <Entry>
-                <h3>TIMPA Meeting Tool</h3>
+                <h3>TIMPA</h3>
                 <p>
-                    A... erm... meeting tool. Used internally during meetings by the city council
-                    organization of the same acronym.
-                    It streamlines their meetings by digesting municipal data into a simple interface where
-                    they review, organize, make decisions about, and prepare for
-                    upcoming roadwork throughout their city.
+                    Used internally by the city council organization of the same acronym.
+                    It streamlines their meetings by digesting municipal data and allowing them to
+                    review, organize, make decisions about, and prepare for roadworks throughout their city.
                 </p>
                 <p>
                     Looking back, we probably should have named it
@@ -55,7 +64,6 @@ export default () =>
                 <h3>University of <span className={"redacted"}>Redacted</span> Enrolment Portal</h3>
                 <p>
                     Student enrolment portal for a New Zealand university I'm not allowed to name drop.
-                    Build in collaboration with another vendor who provided the backend.
                 </p>
                 <TechList techs={['Angular']}/>
             </Entry>
@@ -66,7 +74,9 @@ export default () =>
                     An internal tool used by a New Zealand district county to, you guessed it,
                     manage the lifecycle of third-party contracts.
                 </p>
-                <p>Unfortunately there was no need for a flashy acronymous name.</p>
+                <p>
+                    I think we forgot to actually give this one a real name...
+                </p>
                 <TechList techs={['Ember', 'Node', 'Express', 'Loopback', 'MS SQL Server']}/>
             </Entry>
 
@@ -74,7 +84,7 @@ export default () =>
                 <h3>Pozly</h3>
                 <p>
                     Second startup.
-                    Pozly was a bootstrapped, multi-platform SAAS product for retail renal businesses.
+                    Pozly was a bootstrapped, multi-platform, Point-of-Sale SAAS product for retail renal businesses.
                     It was a Point-of-Sale product that handles the complexity of managing rental, hire, and lease
                     inventory and workflows.
                 </p>
@@ -144,17 +154,36 @@ export default () =>
             <Entry>
                 <h3>"Dye Tracing" Personal Data</h3>
                 <p>
-                    This is less of a "thing" I'm building and more of an experiment to answer the question,
+                    <a href="https://en.wikipedia.org/wiki/Dye_tracing">Dye Tracing</a> is a method used
+                    (among other applications) to discover the exit point of an underground river.
+                    The general idea is you dump a bunch of dye into an underground river and, well, see where it comes
+                    out.
+                    (Sometimes people use ping pong balls instead of dye, but "Ping Pong Balling Personal Data"
+                    didn't make it past my personal marketing department that I totally have.)
+                </p>
+                <p>
+                    Inspired by the likes of <a href="https://haveibeenpwned.com/">have i been pwned</a> and
+                    the <a href="https://gmail.googleblog.com/2008/03/2-hidden-ways-to-get-more-from-your.html">
+                    "+" sign email hack
+                </a>, this is an experiment to answer the question,
                 </p>
                 <blockquote>
                     "What happens when I put my information online?"
                 </blockquote>
                 <p>
-                    Inspired by the likes of <a href="https://haveibeenpwned.com/">have i been pwned</a> and
-                    the <a href="https://gmail.googleblog.com/2008/03/2-hidden-ways-to-get-more-from-your.html">
-                    "+" sign email hack
-                </a>.
+                    The general idea is to sign up to a bunch of websites with unique emails, turn off the spam filter,
+                    and see what comes out the other side.
                 </p>
+                <p>
+                    If this interests you or if you have some ideas or if you want to
+                    discuss, <a href="mailto:patrick+2@ptrck.io">contact me</a>!
+                </p>
+            </Entry>
+
+            <Entry>
+                <h3>ptrck.io</h3>
+                <p>You're looking at it. I'm only including it here to tell you that I built it with...</p>
+                <TechList techs={['Gatsby', 'Github Pages']}/>
             </Entry>
         </SubSection>
 
@@ -167,8 +196,5 @@ export default () =>
                     especially the Christchurch chapter for the awesome convention!
                 </p>
             </Entry>
-        </SubSection>
-        <SubSection>
-            <h2>Contact</h2>
         </SubSection>
     </div>
