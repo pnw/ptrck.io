@@ -5,6 +5,7 @@ import Helmet from 'react-helmet'
 const TemplateWrapper = ({children}) => (
     <div>
         <Helmet
+            title="Patrick | Bootstrapper, Developer, Entrepreneur"
             meta={[
                 {name: "msapplication-TileColor", content: "#ff6347"},
                 {name: "msapplication-TileImage", content: "/favicons/ms-icon-144x144.png"},
@@ -43,6 +44,7 @@ const TemplateWrapper = ({children}) => (
 
         />
         <div className={"container"}>
+            <h1>ptrck<span className="colorful">.</span>io</h1>
             {children()}
         </div>
     </div>

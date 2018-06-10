@@ -5,7 +5,6 @@ import TechList from '../components/tech-list'
 
 export default () =>
     <div>
-        <h1>ptrck<span className="colorful">.</span>io</h1>
         <section className="header-section">
             <p>
                 Hi, I'm Patrick.
