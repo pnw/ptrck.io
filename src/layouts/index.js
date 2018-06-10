@@ -6,9 +6,9 @@ const TemplateWrapper = ({children}) => (
     <div>
         <Helmet
             meta={[
-                {name: "msapplication-TileColor", content: "#ffffff"},
+                {name: "msapplication-TileColor", content: "#ff6347"},
                 {name: "msapplication-TileImage", content: "/favicons/ms-icon-144x144.png"},
-                {name: "theme-color", content: "#ffffff"},
+                {name: "theme-color", content: "#ff6347"},
             ]}
             link={[
                 {rel: "apple-touch-icon", sizes: "57x57", href: "/favicons/apple-icon-57x57.png"},
