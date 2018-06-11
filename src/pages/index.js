@@ -148,6 +148,9 @@ export default () =>
                 </p>
                 <TechList techs={['Vanilla Javascript']}/>
                 <a href="https://github.com/pnw/hn-hide-old-comments">Source</a>
+                <a href="https://chrome.google.com/webstore/detail/hacker-news-hide-old-comm/lghlghkblilphbcnnpnkppioflceamjj">
+                    Chrome Web Store
+                </a>
             </Entry>
 
             <Entry>
