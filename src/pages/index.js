@@ -144,7 +144,7 @@ export default () =>
                 <h3>Hacker News: Hide Old Comments</h3>
                 <p>
                     A simple Chrome browser extention that allows you to automatically collapse old comment threads
-                    when you revisit an interesting discussion
+                    when you revisit an interesting discussion.
                 </p>
                 <TechList techs={['Vanilla Javascript']}/>
                 <a href="https://github.com/pnw/hn-hide-old-comments">Source</a>
