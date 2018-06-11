@@ -171,14 +171,15 @@ export default () =>
                     Inspired by the likes of <a href="https://haveibeenpwned.com/">have i been pwned</a> and
                     the <a href="https://gmail.googleblog.com/2008/03/2-hidden-ways-to-get-more-from-your.html">
                     "+" sign email hack
-                </a>, this is an ongoing experiment to answer the question,
+                </a>, GDPR, and recurring news of high profile data breaches,
+                    this is an ongoing experiment to answer the question,
                 </p>
                 <blockquote>
                     "What happens when I put my information online?"
                 </blockquote>
                 <p>
-                    The general idea is to , turn off the spam filter,
-                    and see what comes out the other side.
+                    The general idea is to spread a bunch of uniquely identifiable emails around the web,
+                    turn off the spam filter, and see what comes out the other side.
                 </p>
                 <p>
                     If this interests you or if you have some ideas or if you want to
