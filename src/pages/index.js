@@ -33,7 +33,7 @@ export default () =>
                     to manage the lifecycle (at least the bits that require approval from the gub'ment)
                     of roadwork projects.
                 </p>
-                <TechList techs={['Ember', 'Node', 'Express', 'Loopback', 'Python', 'Postgres', 'Docker']}/>
+                <TechList techs={['Ember', 'Leaflet', 'Node', 'Express', 'Loopback', 'Python', 'Postgres', 'Docker']}/>
             </Entry>
 
             <Entry>
@@ -42,7 +42,7 @@ export default () =>
                     An internal application used by a District County in New Zealand.
                     It manages tracts of land that may have been contaminated by hazardous materials.
                 </p>
-                <TechList techs={['Ember', 'Node', 'Express', 'Loopback', 'MS SQL Server']}/>
+                <TechList techs={['Ember', 'Leaflet', 'Node', 'Express', 'Loopback', 'MS SQL Server']}/>
             </Entry>
 
             <Entry>
