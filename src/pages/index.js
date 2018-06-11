@@ -148,12 +148,12 @@ export default () =>
                 </p>
                 <TechList techs={['Vanilla Javascript']}/>
                 <p>
-                    <a href="https://github.com/pnw/hn-hide-old-comments">Source</a>
-                </p>
-                <p>
                     <a href="https://chrome.google.com/webstore/detail/hacker-news-hide-old-comm/lghlghkblilphbcnnpnkppioflceamjj">
                         Chrome Web Store
                     </a>
+                </p>
+                <p>
+                    <a href="https://github.com/pnw/hn-hide-old-comments">Source</a>
                 </p>
             </Entry>
 
@@ -177,7 +177,7 @@ export default () =>
                     "What happens when I put my information online?"
                 </blockquote>
                 <p>
-                    The general idea is to sign up to a bunch of websites with unique emails, turn off the spam filter,
+                    The general idea is to , turn off the spam filter,
                     and see what comes out the other side.
                 </p>
                 <p>
