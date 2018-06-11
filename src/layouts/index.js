@@ -5,17 +5,17 @@ import Helmet from 'react-helmet'
 const TemplateWrapper = ({children}) => (
     <div>
         <Helmet
-            title="Patrick | Bootstrapper, Developer, Entrepreneur"
+            title="ptrck.io | Patrick Walsh"
             meta={[
                 {name: "msapplication-TileColor", content: "#ff6347"},
                 {name: "msapplication-TileImage", content: "/favicons/ms-icon-144x144.png"},
                 {name: "theme-color", content: "#ff6347"},
                 {name: 'description', content: 'Patrick is a full stack web developer based in Boulder, Colorado.' },
                 {name: 'robots', content: 'index, follow' },
-                // {name: 'google-site-verification', content: '' },
+                {name: 'google-site-verification', content: '137rc7PdNtoGP-5VVhBQxCG9Ev3_trBPcwLNL6jce4Y' },
                 {property: 'og:url', content: 'http://ptrck.io' },
                 {property: 'og:type', content: 'website' },
-                {property: 'og:title', content: 'ptrck.io | Bootstrapper, Developer, Entrepreneur' },
+                {property: 'og:title', content: 'ptrck.io | Patrick Walsh' },
                 {property: 'og:description', content: 'Patrick is a full stack web developer based in Boulder, Colorado.' },
                 {property: 'og:site_name', content: 'ptrck.io' },
                 {property: 'og:locale', content: 'en_US' },
