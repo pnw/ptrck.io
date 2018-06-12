@@ -14,7 +14,7 @@ export default () =>
                 but these days you can find me in Boulder, Colorado.
             </p>
             <p>
-                I like to build tools that make peoples lives more efficient.
+                I love working on the web and building tools that make peoples lives more efficient.
             </p>
 
             <p>
