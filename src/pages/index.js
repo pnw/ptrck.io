@@ -117,7 +117,12 @@ export default () =>
                     them.
                 </p>
                 <TechList techs={['Python', 'Click.py']}/>
-                <a href="https://github.com/pnw/env-tracker">Source</a>
+                <p>
+                    <a href="https://github.com/pnw/env-tracker/blob/master/README.md">Full Description</a>
+                </p>
+                <p>
+                    <a href="https://github.com/pnw/env-tracker">Source</a>
+                </p>
             </Entry>
 
             <Entry>
