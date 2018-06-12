@@ -105,18 +105,6 @@ export default () =>
             <p>These are some of the projects that I've built (or am building) for myself.</p>
 
             <Entry>
-                <h3>Jiggl</h3>
-                <p>
-                    Why spend minutes on timesheet logging and invoicing when you can spend hours hacking together a
-                    custom data-connector/automation-tool to do it for you?
-                    Yes, there are other connectors between Jira and Toggle,
-                    but I had some other ideas about user experience and workflow.
-                </p>
-                <p>Jira + Toggl = Jiggl. Heh.</p>
-                <TechList techs={['Ember', 'Python', 'Flask']}/>
-            </Entry>
-
-            <Entry>
                 <h3>Env Tracker</h3>
                 <p>
                     If you're a web developer, you probably have some files in your project that you want to keep hidden
@@ -133,20 +121,12 @@ export default () =>
             </Entry>
 
             <Entry>
-                <h3>Crypto-Currency Trading Bot</h3>
-                <p>
-                    DIY algorithmic and arbitrage crypto-currency trading bot.
-                </p>
-                <TechList techs={['Python', 'Click.py', 'Redis', 'Postgres', 'Docker']}/>
-            </Entry>
-
-            <Entry>
                 <h3>Hacker News: Hide Old Comments</h3>
                 <p>
                     A simple Chrome browser extention that allows you to automatically collapse old comment threads
                     when you revisit an interesting discussion.
                 </p>
-                <TechList techs={['Vanilla Javascript']}/>
+                <TechList techs={['Google Chrome', 'Vanilla Javascript']}/>
                 <p>
                     <a href="https://chrome.google.com/webstore/detail/hacker-news-hide-old-comm/lghlghkblilphbcnnpnkppioflceamjj">
                         Chrome Web Store
@@ -155,6 +135,30 @@ export default () =>
                 <p>
                     <a href="https://github.com/pnw/hn-hide-old-comments">Source</a>
                 </p>
+            </Entry>
+
+            <Entry>
+                <h3>Jiggl</h3>
+                <p>
+                    Why spend minutes on timesheet logging and invoicing when you can spend hours hacking together a
+                    custom data-connector/automation-tool to do it for you?
+                    Yes, there are other, existing connectors between Jira and Toggle,
+                    but I had some other ideas about user experience and automation workflow.
+                </p>
+                <p>Jira + Toggl = Jiggl. Heh.</p>
+                <TechList techs={['Ember', 'Python', 'Flask']}/>
+            </Entry>
+
+            <Entry>
+                <h3>Crypto-Currency Trading Bot</h3>
+                <p>
+                    DIY algorithmic and arbitrage crypto-currency trading bot.
+                    Also used to explore some ideas I have about market dynamics.
+                </p>
+                <p>
+                    <a href="patrick+3@ptrck.io">Reach out</a> if you want to discuss strategies!
+                </p>
+                <TechList techs={['Python', 'Click.py', 'Redis', 'Postgres', 'Docker']}/>
             </Entry>
 
             <Entry>
