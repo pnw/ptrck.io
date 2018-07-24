@@ -10,8 +10,8 @@ export default () =>
                 Hi, I'm Patrick.
             </p>
             <p>
-                I'm a full stack web developer. For years, I traveled around the eastern hemisphere, working remotely,
-                but these days you can find me in Boulder, Colorado.
+                I'm a full stack web developer. For years, I traveled around the world, working remotely,
+                but these days you can find me in Colorado.
             </p>
             <p>
                 I love working on the web and building tools that make peoples lives more efficient.
@@ -30,8 +30,8 @@ export default () =>
                 <h3 id="myworksites">MyWorksites</h3>
                 <p>
                     A collaboration tool that allows municipal organizations and contractors across New Zealand
-                    to manage the lifecycle (at least the bits that require approval from the gub'ment)
-                    of roadwork projects.
+                    to manage the lifecycle of roadwork projects,
+                    or at least the bits that require government oversight.
                 </p>
                 <TechList techs={['Ember', 'Leaflet', 'Node', 'Express', 'Loopback', 'Python', 'Postgres', 'Docker']}/>
             </Entry>
@@ -52,10 +52,6 @@ export default () =>
                     It streamlines their meetings by digesting municipal data and allowing them to
                     review, organize, make decisions about, and prepare for roadworks throughout their city.
                 </p>
-                <p>
-                    Looking back, we probably should have named it
-                    Advanced TIMPA Meeting Streamliner Pro ™ or something cooler.
-                </p>
                 <TechList techs={['Ember', 'Node', 'Express', 'Loopback', 'Postgres']}/>
             </Entry>
 
@@ -70,11 +66,8 @@ export default () =>
             <Entry>
                 <h3 id="contracts">Contracts</h3>
                 <p>
-                    An internal tool used by a New Zealand district county to, you guessed it,
+                    An internal tool used by a District County to, you guessed it,
                     manage the lifecycle of third-party contracts.
-                </p>
-                <p>
-                    I think we forgot to actually give this one a real name...
                 </p>
                 <TechList techs={['Ember', 'Node', 'Express', 'Loopback', 'MS SQL Server']}/>
             </Entry>
@@ -102,8 +95,6 @@ export default () =>
 
         <SubSection>
             <h2 id="projects">Projects</h2>
-            <p>These are some of the projects that I've built (or am building) for myself.</p>
-
             <Entry>
                 <h3 id="et">Env Tracker</h3>
                 <p>
