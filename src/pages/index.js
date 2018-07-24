@@ -5,7 +5,7 @@ import TechList from '../components/tech-list'
 
 export default () =>
     <div>
-        <section className="header-section">
+        <section className="bio">
             <p>
                 Hi, I'm Patrick.
             </p>
@@ -25,9 +25,9 @@ export default () =>
         </section>
 
         <SubSection>
-            <h2>Work</h2>
+            <h2 id="work">Work</h2>
             <Entry>
-                <h3>MyWorksites</h3>
+                <h3 id="myworksites">MyWorksites</h3>
                 <p>
                     A collaboration tool that allows municipal organizations and contractors across New Zealand
                     to manage the lifecycle (at least the bits that require approval from the gub'ment)
@@ -37,7 +37,7 @@ export default () =>
             </Entry>
 
             <Entry>
-                <h3>Listed Land Use Register</h3>
+                <h3 id="llur">Listed Land Use Register</h3>
                 <p>
                     An internal application used by a District County in New Zealand.
                     It manages tracts of land that may have been contaminated by hazardous materials.
@@ -46,7 +46,7 @@ export default () =>
             </Entry>
 
             <Entry>
-                <h3>TIMPA</h3>
+                <h3 id="timpa">TIMPA</h3>
                 <p>
                     Used internally by the city council organization of the same acronym.
                     It streamlines their meetings by digesting municipal data and allowing them to
@@ -60,7 +60,7 @@ export default () =>
             </Entry>
 
             <Entry>
-                <h3>University of <span className={"redacted"}>Redacted</span> Enrolment Portal</h3>
+                <h3 id="university">University of <span className={"redacted"}>Redacted</span> Enrolment Portal</h3>
                 <p>
                     Student enrolment portal for a New Zealand university I'm not allowed to name drop.
                 </p>
@@ -68,7 +68,7 @@ export default () =>
             </Entry>
 
             <Entry>
-                <h3>Contracts</h3>
+                <h3 id="contracts">Contracts</h3>
                 <p>
                     An internal tool used by a New Zealand district county to, you guessed it,
                     manage the lifecycle of third-party contracts.
@@ -80,7 +80,7 @@ export default () =>
             </Entry>
 
             <Entry>
-                <h3>Pozly</h3>
+                <h3 id="pozly">Pozly</h3>
                 <p>
                     Second startup.
                     Pozly was a bootstrapped, multi-platform, Point-of-Sale SAAS product for retail renal businesses.
@@ -91,7 +91,7 @@ export default () =>
             </Entry>
 
             <Entry>
-                <h3>Levr</h3>
+                <h3 id="levr">Levr</h3>
                 <p>
                     First startup.
                     Levr was a location-based mobile application to share and discover local deals and promotions.
@@ -101,11 +101,11 @@ export default () =>
         </SubSection>
 
         <SubSection>
-            <h2>Projects</h2>
+            <h2 id="projects">Projects</h2>
             <p>These are some of the projects that I've built (or am building) for myself.</p>
 
             <Entry>
-                <h3>Env Tracker</h3>
+                <h3 id="et">Env Tracker</h3>
                 <p>
                     If you're a web developer, you probably have some files in your project that you want to keep hidden
                     from source control à la <samp>.gitignore</samp>.
@@ -126,7 +126,7 @@ export default () =>
             </Entry>
 
             <Entry>
-                <h3>Hacker News: Hide Old Comments</h3>
+                <h3 id="hackernews">Hacker News: Hide Old Comments</h3>
                 <p>
                     A simple Chrome browser extention that allows you to automatically collapse old comment threads
                     when you revisit an interesting discussion.
@@ -143,7 +143,7 @@ export default () =>
             </Entry>
 
             <Entry>
-                <h3>Jiggl</h3>
+                <h3 id="jiggl">Jiggl</h3>
                 <p>
                     Why spend minutes on timesheet logging and invoicing when you can spend hours hacking together a
                     custom data-connector/automation-tool to do it for you?
@@ -155,7 +155,7 @@ export default () =>
             </Entry>
 
             <Entry>
-                <h3>Crypto-Currency Trading Bot</h3>
+                <h3 id="cryptobot">Crypto-Currency Trading Bot</h3>
                 <p>
                     DIY algorithmic and arbitrage crypto-currency trading bot.
                     Also used to explore some ideas I have about market dynamics.
@@ -167,7 +167,7 @@ export default () =>
             </Entry>
 
             <Entry>
-                <h3>"Dye Tracing" Personal Data</h3>
+                <h3 id="dyetracing">"Dye Tracing" Personal Data</h3>
                 <p>
                     <a href="https://en.wikipedia.org/wiki/Dye_tracing">Dye Tracing</a> is a method used
                     (among other applications) to discover the exit point of an underground river.
@@ -197,16 +197,16 @@ export default () =>
             </Entry>
 
             <Entry>
-                <h3>ptrck.io</h3>
+                <h3 id="ptrck">ptrck.io</h3>
                 <p>You're looking at it. I'm only including it here to tell you that I built it with...</p>
                 <TechList techs={['Gatsby', 'Github Pages']}/>
             </Entry>
         </SubSection>
 
         <SubSection>
-            <h2>Other</h2>
+            <h2 id="other">Other</h2>
             <Entry>
-                <h3>Kiwi PyCon 2015, Christchurch NZ</h3>
+                <h3 id="pycon">Kiwi PyCon 2015, Christchurch NZ</h3>
                 <p>
                     Was on the organizing committee. Shout out to the New Zealand Python User Group (NZPUG) and
                     especially the Christchurch chapter for the awesome convention!
