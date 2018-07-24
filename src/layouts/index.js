@@ -41,8 +41,9 @@ const TemplateWrapper = ({children}) => (
                 {rel: "icon", type: "image/png", sizes: "16x16", href: "/favicons/favicon-16x16.png"},
                 {rel: "manifest", href: "/favicons/manifest.json"}
             ]}
-
-        />
+        >
+            <html lang="en"/>
+        </Helmet>
         <div className={"container"}>
             <h1 id="top">ptrck<span className="colorful">.</span>io</h1>
             {children()}
